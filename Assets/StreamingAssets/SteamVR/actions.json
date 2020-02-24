@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/InteractUI",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/NewAction",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/out/NewAction",
+      "type": "vibration"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "single"
+    }
+  ],
+  "default_bindings": [],
+  "localization": [
+    {
+      "language_tag": "new-language",
+      "/actions/default/in/InteractUI": "/actions/default/in/InteractUI"
+    }
+  ]
+}

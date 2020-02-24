@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6fd9a971c541fd84b8d63e273da82212
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cubemapLeft: {fileID: 8600000, guid: fb6474a8cb3a5fc41835057f3cddaa7f, type: 2}
+  - cubemapRight: {fileID: 8600000, guid: e3c6d8b462e42634a80f72a8ff54afb6, type: 2}
+  - equirect: {fileID: 8600000, guid: 9003e71629ae7114ca81ca25aaec2634, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

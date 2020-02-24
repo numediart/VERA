@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "name": "/actions/NewSet/in/NewAction",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/NewSet/in/NewAction",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/NewSet/out/NewAction",
+      "type": "vibration"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/NewSet",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/NewSet",
+      "usage": "single"
+    }
+  ],
+  "default_bindings": [],
+  "localization": []
+}
