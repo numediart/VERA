@@ -47,7 +47,7 @@ public class Task2StimSpawner : MonoBehaviour
             RandomPosition(x_center, y_center, z_center, inter_x, inter_y, inter_z);
             distance = ComputeDistance(x, y, z, x_center, y_center, z_center);
             
-            while (distance < 1.5) // update the target apparition position while it is not correct
+            while (distance < 1.2) // update the target apparition position while it is not correct
             {
                 RandomPosition(x_center, y_center, z_center, inter_x, inter_y, inter_z);
                 distance = ComputeDistance(x, y, z, x_center, y_center, z_center);
@@ -77,6 +77,13 @@ public class Task2StimSpawner : MonoBehaviour
             Tmp.GetComponent<SightAnalysis>().Exp_time = Spawn_time; //time_duration of the object
             Tmp.GetComponent<SightAnalysis>().Go = false; //class assignement to no-go 
             Destroy(Tmp, Spawn_time-1f);
+            RawRecorder.AppearTask2 = true;
+            RawRecorder.x_target = x_target;
+            RawRecorder.y_target = y_target;
+            RawRecorder.z_target = z_target;
+            RawRecorder.x = x;
+            RawRecorder.y = y;
+            RawRecorder.z = z;
         }
     }
 

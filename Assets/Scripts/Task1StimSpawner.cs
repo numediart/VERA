@@ -61,7 +61,7 @@ public class Task1StimSpawner : MonoBehaviour
 
     void PerturbApparition()
     {
-        for (int i = 0; i < 25; i++)
+        for (int i = 0; i < 50; i++)
         {
             sim.Keyboard.KeyPress(VirtualKeyCode.VK_4);
         }

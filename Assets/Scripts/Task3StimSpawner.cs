@@ -70,6 +70,10 @@ public class Task3StimSpawner : MonoBehaviour
             GameObject Tmp = Instantiate(RightPrefab, new Vector3(x, y, z), Quaternion.identity);
             Destroy(Tmp, Duration_time);
             Tmp.GetComponent<SightAnalysis>().Exp_time = Duration_time; //time_duration of the object
+            RawRecorder.x = x;
+            RawRecorder.y = y;
+            RawRecorder.z = z;
+            RawRecorder.AppearTask3 = true;
         }
         if (Timer > Spawn_time + Duration_time && !toAppear)
         {

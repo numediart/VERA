@@ -216,10 +216,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Au cours de cette t\xE2che, diff\xE9rentes balles vont appara\xEEtre. D\xE9s
-    que cette derni\xE8re correspond \xE0 la cible, il est demand\xE9 de regarder
-    dans sa direction (sans bouger la t\xEAte), le plus vite possible. \n\nCible :
-    \                                   \n\n\n"
+  m_Text: "Au cours de cet exercice, diff\xE9rent(e)s XXXX vont appara\xEEtre. D\xE8s
+    que tu en vois un(e) qui correspond \xE0 XXXX, regarde dans sa direction le plus
+    vite possible, sans bouger la t\xEAte. Lorsque aucun XXX n'est visible regarde
+    le cube rouge au centre de l'\xE9cran.\n\nCible :                                    \n\n\n"
 --- !u!1 &1955965496675584432
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,9 +524,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Au cours de cette t\xE2che, diff\xE9rentes balles vont appara\xEEtre. D\xE9s
-    que l'une d'elles appara\xEEt, il est demand\xE9 de regarder dans sa direction
-    (sans bouger la t\xEAte) le plus vite possible.\n\nBalles :                                    "
+  m_Text: "Au cours de cet exercice, diff\xE9rent(e)s XXXX vont appara\xEEtre. D\xE8s
+    que tu en vois un(e), regarde dans sa direction le plus vite possible. Lorsque
+    aucun XXX n'est visible regarde le cube rouge au centre de l'\xE9cran.\n\nCible
+    :          "
 --- !u!1 &1955965497062433807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,8 +1021,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "L'activit\xE9 commence par une phase de ralaxation. \nConcentre-toi et
-    essaie de rester le plus tranquille possible."
+  m_Text: "L'activit\xE9 commence par une phase de ralaxation. \nRelaxe-toi et essaie
+    de rester le plus tranquille possible."
 --- !u!1 &1955965498359669605
 GameObject:
   m_ObjectHideFlags: 0

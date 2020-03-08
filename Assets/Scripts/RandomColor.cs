@@ -10,8 +10,8 @@ public class RandomColor : MonoBehaviour
     float H,S,V,H_;
     void Start()
     {
-        Color.RGBToHSV(new_color, out H_, out S, out V);
-        while (distance < 0.25)
+        Color.RGBToHSV(AvoidColor, out H_, out S, out V);
+        while (distance < 0.3)
         {
             new_color.r = Random.Range(0, 1f);
             new_color.g = Random.Range(0, 1f);

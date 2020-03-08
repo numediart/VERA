@@ -1145,7 +1145,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12360}
     - Class: 114
-      Script: {instanceID: 54368}
+      Script: {instanceID: 23824}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2861,4 +2861,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Forest.unity
   - Assets/Scenes/BirthdayParty.unity
   - Assets/Scenes/AmusementPark.unity
-  playerPath: C:/Users/victo/Desktop/Final/Verta.exe
+  playerPath: C:/Users/victo/Desktop/VERA/VERA - Virtual Environment Recording Attention.exe
