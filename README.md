@@ -1,1 +1,1 @@
-# VERA
+# VERA - Virtual Environments Recording Attention
