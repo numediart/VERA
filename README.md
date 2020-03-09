@@ -6,7 +6,7 @@ Five different environments in VR have been created, they aim to promote attenti
 ![VR Env](GitUsefull/VirtualEnvironment.png).
 
 To use the environments, the instructions are the following: 
-- Download the project (or at least the "VERA" directory). 
+- Download the project (or at least the "[VERA - Virtual Environment Recording Attention](VERA%20-%20Virtual%20Environment%20Recording%20Attention)" directory). 
 - Plug the VR headset.
 - Turn on Steam-VR (if not installed [link](https://store.steampowered.com/steamvr?l)).
 - Turn on Vive SRanipal SDK (if not installed [link](https://developer.vive.com/resources/knowledgebase/vive-sranipal-sdk/)).
