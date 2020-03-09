@@ -26,6 +26,6 @@ Physiological signals are recorded according to the following template:
 
 ## Signal Analysis 
 
-In the "Signal Analysis Intro" directory a notebook **Python 3.7** is presented with the introduction of the signal processing pipeline that can be used to process the dataset created by the VR environments. In addition to the signal from the VR headset, an EEG file synchronised has been added. The different step leading to a first step signal classification (attentive/Not attentive) is presented. 
+In the "[Signal Analysis Intro](Signal Analysis Intro/)" directory a notebook **Python 3.7** is presented with the introduction of the signal processing pipeline that can be used to process the dataset created by the VR environments. In addition to the signal from the VR headset, an EEG file synchronised has been added. The different step leading to a first step signal classification (attentive/Not attentive) is presented. 
 
 For this purpose different libraries have to be installed by typing `pip install requirements.txt`. After installing the libraries, the code can easily be implemented by running the notebook. 
