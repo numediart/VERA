@@ -27,6 +27,9 @@ Physiological signals are recorded according to the following template:
 |...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|...
 
 
+
+A first **set of signals** is given in [Signal Analysis Intro/](Signal%20Analysis%20Intro/)[ExampleSig](Signal%20Analysis%20Intro/ExampleSig) corresponding to a full acquisition.
+
 ## Signal Analysis 
 
 In the "[Signal Analysis Intro](Signal%20Analysis%20Intro/)" directory a [notebook](Signal%20Analysis%20Intro/VERA%20-%20Signal%20Analysis%20Pipeline%20.ipynb) **Python 3.7** is presented with the introduction of the signal processing pipeline that can be used to process the dataset created by the VR environments. In addition to the signal from the VR headset, an EEG file synchronised has been added. The different step leading to a first step signal classification (attentive/Not attentive) is presented. 
