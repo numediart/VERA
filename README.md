@@ -12,8 +12,11 @@ To use the environments, the instructions are the following:
 - Turn on Vive SRanipal SDK (if not installed [link](https://developer.vive.com/resources/knowledgebase/vive-sranipal-sdk/)).
 - Click on "VERA - Virtual Environment Recording Attention.exe".
 
-After playing the game, two different directories will be created: one with physiological signals (RawSignals_ ...) and one with the results of the Attentional Tasks (TaskRecords_ ...). 
-ADD TASK DESCRIPTION
+After playing the game, two different directories will be created: one with physiological signals (RawSignals_ ...) and one with the results of the Attentional Tasks (TaskRecords_ ...).
+It is asked to the participant to proceed to three different tasks 
+- The first task corresponds to relaxation, it is asked to the participant to relax without moving.
+- The second task aims to measure selective attention. This cognitive assessment represents the capacity of a subject to remain focused on a specific task during a certain time while inhibiting the external perturbators.
+- The third task aims to measure sustained attention that represents the faculty to focus on a redundant task after a certain amount of time.
 
 Physiological signals are recorded according to the following template: 
 
@@ -28,4 +31,4 @@ Physiological signals are recorded according to the following template:
 
 In the "[Signal Analysis Intro](Signal%20Analysis%20Intro/)" directory a [notebook](Signal%20Analysis%20Intro/VERA%20-%20Signal%20Analysis%20Pipeline%20.ipynb) **Python 3.7** is presented with the introduction of the signal processing pipeline that can be used to process the dataset created by the VR environments. In addition to the signal from the VR headset, an EEG file synchronised has been added. The different step leading to a first step signal classification (attentive/Not attentive) is presented. 
 
-For this purpose different libraries have to be installed by typing `pip install requirements.txt`. After installing the libraries, the code can easily be implemented by running the notebook. 
+For this purpose different libraries have to be installed by typing `pip install requirements.txt`. After installing the  libraries, the code can easily be implemented by running the notebook. 
