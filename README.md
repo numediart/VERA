@@ -35,3 +35,16 @@ A first **set of signals** is given in [Signal Analysis Intro/](Signal%20Analysi
 In the "[Signal Analysis Intro](Signal%20Analysis%20Intro/)" directory a [notebook](Signal%20Analysis%20Intro/VERA%20-%20Signal%20Analysis%20Pipeline%20.ipynb) **Python 3.7** is presented with the introduction of the signal processing pipeline that can be used to process the dataset created by the VR environments. In addition to the signal from the VR headset, an EEG file synchronised has been added. The different step leading to a first step signal classification (attentive/Not attentive) is presented. 
 
 For this purpose different libraries have to be installed by typing `pip install requirements.txt`. After installing the  libraries, the code can easily be implemented by running the notebook. 
+
+## Citation
+
+If you use VERA, please cite the original paper: 
+
+    @inproceedings{delvigne_vera_2020,
+      title = {{VERA}: {Virtual} {Environments} {Recording} {Attention}},
+      booktitle = {2020 {IEEE} 8th {International} {Conference} on {Serious} {Games} and {Applications} for {Health} ({SeGAH})},
+      author = {Delvigne, Victor and Ris, Laurence and Dutoit, Thierry and Wannous, Hazem and Vandeborre, Jean-Philippe},
+      month = aug,
+      year = {2020},
+      note = {ISSN: 2573-3060},
+    }
